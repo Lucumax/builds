@@ -1,0 +1,8 @@
+title: Builds
+description: Write ups of AI assisted systems built by Walter Guevara. No source code.
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
