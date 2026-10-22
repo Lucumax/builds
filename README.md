@@ -12,7 +12,7 @@ I work as a small team of one: product owner, analyst, builder and reviewer, dir
 
 More detail on one page: [HOW_I_WORK.md](HOW_I_WORK.md).
 
-Scale: more than fifty private repositories. More than 4 billion tokens a month (my own usage figure).
+Scale: most of this work lives in private repositories, which is why this page describes them instead of linking code.
 
 ## Featured builds
 
