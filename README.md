@@ -1,6 +1,6 @@
 # Builds
 
-**Walter Guevara**, Washington, D.C. I build AI systems, and I do the finance and strategy that decide whether they pay.
+**Walter Guevara**, Washington, D.C. Finance and strategy operator. I orchestrate multi agent AI systems, build autonomous agents, and do the finance and strategy that decide whether they pay.
 
 Contact: walter.guevara.us@gmail.com | [linkedin.com/in/walterguevara](https://linkedin.com/in/walterguevara)
 
