@@ -22,4 +22,6 @@ I write the spec, the acceptance tests and the release gates. Agents build, othe
 
 ## What I am looking for
 
+Two builds, both public, because those are the two that hold up to inspection. The rest of my work stays private.
+
 A real utilization figure or contract term. Send it and I will rerun the model on it and send back what it does to the return. I have not priced a cluster against real quotes yet, and that is the work I want next.
