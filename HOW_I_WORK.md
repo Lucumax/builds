@@ -2,10 +2,17 @@
 
 A one minute read.
 
+## The rule
+
+I decide in advance what an agent may do alone and what only a person may approve. Everything else follows from that line.
+
+- **An agent may:** read, draft, build to a spec, run checks and propose.
+- **Only a person may:** accept a decision, spend money, publish, change a gate or act on anything irreversible.
+
 ## Roles
 
 - **Me:** product owner and final reviewer. I write the spec, the acceptance tests and the release gates, and I approve what ships.
-- **Claude Code:** conductor. It plans, splits work and coordinates.
+- **Claude Code:** the conductor. It plans, splits the work and coordinates.
 - **Codex and open weight models such as DeepSeek:** builders and independent reviewers.
 - **Small checker models:** fact checkers. They check, they do not score.
 
@@ -13,16 +20,9 @@ A one minute read.
 
 - Every build has a written spec before code.
 - Agents build. A different agent then tries to break the work.
-- Facts, numbers and citations are checked by deterministic scripts where possible. A model proposes, a check disposes.
-- Builder output is scanned before I accept it. In one paper build, a builder agent twice slipped in text I had ruled out, so my process now scans builder output instead of trusting the agent's own report.
+- Numbers and citations are checked by scripts wherever possible. A model proposes, a check disposes.
+- Builder output is scanned before I accept it, because an agent's own report is not evidence.
 
-## Green is not good
+## A passing check is not a finished review
 
-A passing test or a PASS verdict is not the same as a good result. I read the output myself and look for what the gates cannot see. One example from my own work: a sound detector rule looked strong on one test set and did not hold up on independent recordings. I wrote down the test before scoring it and recorded the negative result in the repo.
-
-## What an agent may do alone
-
-- **Alone:** read, draft, build to spec, run checks, propose.
-- **With a person:** accept a decision, spend money, publish, change a gate, or act on anything irreversible.
-
-Two builds show the pattern. In the approval layer, an agent can only propose a payment and a human approves the exact terms. In Product Forge, the pipeline only proposes and a human accepts with a token and the exact hash of the card.
+Before I published the GPU cost model, a separate AI reviewer went through it and found two errors my own checks had passed. I had credited a 35 percent discount to a pricing page that states no percentage, and one cover ratio compared a year five scrap value with debt owed at the end of a one to three year contract. I relabeled the discount as an assumption and fixed the ratio before publishing. I read the output myself because the gates can only catch what they were built to see.

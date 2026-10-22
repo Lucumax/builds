@@ -1,5 +1,5 @@
 title: Builds
-description: Write ups of AI assisted systems built by Walter Guevara. No source code.
+description: Public builds by Walter Guevara: a GPU cost model and Partnership OS.
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-relative-links
