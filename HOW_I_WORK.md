@@ -8,8 +8,6 @@ Before I published the GPU cost model, a separate AI reviewer found two errors t
 
 An agent may read, draft, build to a spec, run checks and propose. Only a person may accept a decision, spend money, publish, change a gate or act on anything irreversible. I set that line before an agent starts.
 
-## Who does what
+## Autonomous agents
 
-- **Me:** the spec, the acceptance tests, the release gates and the approval to ship.
-- **Claude Code** conducts. **Codex, open weight models such as DeepSeek and small checker models** build, review and check facts. Other agents try to break the work.
-- **Autonomous agents** in my own operation run on a schedule, read sources and draft. Anything that leaves my desk waits for my approval.
+Agents in my own operation run on a schedule, read sources and draft. Anything that leaves my desk waits for my approval.

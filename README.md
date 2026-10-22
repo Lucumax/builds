@@ -20,7 +20,7 @@ Two builds, both public, because those are the two that hold up to inspection. T
 
 ## How I work
 
-I write the spec, the acceptance tests and the release gates. Agents build, other agents try to break the work, and I read the output before anything ships. [The detail is on one page.](HOW_I_WORK.md)
+I run AI the way a managing partner runs a practice. Claude Code is my chief of staff. Codex, open weight models such as DeepSeek and a bench of small checker models are my analysts: they build, review and fact check. I own the three things that decide whether the work is worth anything: the spec, the acceptance tests and the release gates. A second set of agents attacks what the first set builds, and nothing ships until I have read it myself, because a passing test only proves the question we thought to ask. Every build turns on one design decision, what an agent may do alone and what only a person may approve, and I make it before the first line of code. [The detail is on one page.](HOW_I_WORK.md)
 
 ## What I am looking for
 
