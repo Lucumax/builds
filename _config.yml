@@ -1,5 +1,5 @@
 title: Builds
-description: Public builds by Walter Guevara: a GPU cost model and Partnership OS.
+description: "Public builds by Walter Guevara, a GPU cost model and Partnership OS."
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-relative-links
